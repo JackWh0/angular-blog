@@ -1,0 +1,38 @@
+.background-img {
+  height: 70vh;
+  background-image: url("../../../assets/images/background-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.home__container {
+  position: relative;
+}
+
+.home__anime_session {
+  top: 15%;
+  right: 0;
+  position: absolute;
+  display: flex;
+}
+
+.home__anime_poster {
+  width: 35%;
+}
+
+.home__anime_info {
+  width: 65%;
+}
+
+.home__menu-bar {
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+}

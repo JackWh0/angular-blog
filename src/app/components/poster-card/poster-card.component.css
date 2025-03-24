@@ -1,0 +1,37 @@
+.poster-card__picture {
+    width: 100%;
+}
+
+.poster-card__picture > img {
+    width: 100%;
+}
+.poster-card__container {
+    padding: 15px;
+    margin-left: 85px;
+}
+
+.poster-card__starts {
+    font-size: 20px;
+}
+.checked, .stars-number {
+    margin-top: 30px;
+    margin-right: 7px;
+    color: rgb(110, 209, 86);
+}
+
+.poster-card__rating {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.poster-card__button > button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    color: #db2d69;
+    font-weight: bolder;
+    background-color: #202020;
+    border: #db2d69 1px solid;
+    cursor: pointer;
+    border-radius: 15px;
+}

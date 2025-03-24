@@ -1,0 +1,52 @@
+.info-card__container{
+    padding: 15px;
+    margin-top: 20%;
+}
+
+.info-card__japanese_title_plus_year_and_duration{
+    margin-bottom: 15px;
+}
+
+.watching-button{
+    background-color:  #db2d69 !important;
+    color: #efecec !important;
+}
+
+.watching-button > i{
+    color: #efecec !important;
+}
+
+.info-card__buttons > button {
+    margin: 2px;
+    padding: 15px;
+    color: #db2d69;
+    font-weight: bolder;
+    background-color: transparent;
+    border: #db2d69 1px solid;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.info-card__buttons > button> i {
+    color: #db2d69;
+}
+
+
+.info-card__trailer > img {
+    border-radius: 15px;
+    width: 75px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.info-card__genres > span {
+    background-color: #d8387b;
+    color: #efecec;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.info-card__genres {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,19 @@
+.menu-bar__container > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar__container > ul > li {
+  margin-right: 25px;
+  list-style-type: none;
+}
+.menu-bar__container > ul > li > a {
+  text-decoration: none;
+  color: white;
+
+  text-shadow: 0 0 3px #db2d69, 0 0 5px #4444e2;
+}
+
+hr {
+    text-shadow: 2px 2px 4px #000000;
+}

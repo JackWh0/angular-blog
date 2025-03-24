@@ -1,0 +1,14 @@
+.episode-card__card  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+}
+
+.episode-card__card > p {
+    padding-left: 7px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
