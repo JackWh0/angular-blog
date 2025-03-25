@@ -2,10 +2,14 @@
 
 A blog project created with Angular and based on a [dribbble](https://dribbble.com/shots/25472172-Anime-Web-App) layout.
 
+🚧 Work in progress 🚧
+
 ![project](https://github.com/user-attachments/assets/2d35e205-4774-4519-8b81-3e7eb0c5dab1)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+
+
 
 ## Development server
 
