@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-poster-card',
   templateUrl: './poster-card.component.html',
-  styleUrls: ['./poster-card.component.css']
+  styleUrls: [
+    './poster-card.component.css',
+    './poster-card.responsive.component.css',
+  ],
 })
 export class PosterCardComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

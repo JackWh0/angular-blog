@@ -4,7 +4,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-episode-card',
   templateUrl: './episode-card.component.html',
-  styleUrls: ['./episode-card.component.css']
+  styleUrls: ['./episode-card.component.css', './episode-card.responsive.component.css']
 })
 export class EpisodeCardComponent implements OnInit {
 
