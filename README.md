@@ -4,8 +4,11 @@ A blog project created with Angular and based on a [dribbble](https://dribbble.c
 
 🚧 Work in progress 🚧
 
-![project](https://github.com/user-attachments/assets/2d35e205-4774-4519-8b81-3e7eb0c5dab1)
+![192 168 3 137_4200_](https://github.com/user-attachments/assets/a4162699-c503-4b4b-973d-ea898eb52e5d)
 
+What it looks like on a phone:
+
+![192 168 3 137_4200_(iPhone XR)](https://github.com/user-attachments/assets/b0b27644-626b-4b83-81d7-0cdbaeff0762)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
