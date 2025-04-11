@@ -1,0 +1,27 @@
+@media only screen and (max-width: 692px) {
+  .home__menu-bar {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .home__anime_session {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    right: auto;
+  }
+
+  .home__anime_poster {
+    width: 100%;
+  }
+
+  .home__anime_info {
+    width: 100%;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .background-img {
+    height: 53vh;
+  }
+}

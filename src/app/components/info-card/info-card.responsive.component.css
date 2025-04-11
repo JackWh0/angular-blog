@@ -1,0 +1,23 @@
+@media only screen and (max-width: 692px) {
+  .info-card_container {
+    width: 100%;
+    padding-left: 70px;
+    margin-left: 0px;
+  }
+
+  .info-card__japanese_title_plus_year_and_duration {
+    margin-bottom: 15px;
+  }
+
+  .info-card__trailer > img {
+    border-radius: 15px;
+    width: 155px;
+    height: 110px;
+    cursor: pointer;
+  }
+
+  .info-card__genres > span {
+    margin: 4px;
+    padding: 6px;
+  }
+}
