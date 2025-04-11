@@ -1,37 +1,42 @@
 .poster-card__picture {
-    width: 100%;
+  width: 100%;
 }
 
 .poster-card__picture > img {
-    width: 100%;
+  width: 100%;
+  -webkit-box-shadow: 10px 10px 26px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 26px -6px rgba(0, 0, 0, 0.75);
 }
 .poster-card__container {
-    padding: 15px;
-    margin-left: 85px;
+  padding: 15px;
+  margin-left: 85px;
 }
 
 .poster-card__starts {
-    font-size: 20px;
+  font-size: 20px;
 }
-.checked, .stars-number {
-    margin-top: 30px;
-    margin-right: 7px;
-    color: rgb(110, 209, 86);
+
+.checked,
+.stars-number {
+  margin-top: 30px;
+  margin-right: 7px;
+  color: rgb(110, 209, 86);
 }
 
 .poster-card__rating {
-    margin-top: 20px;
-    font-family: sans-serif;
+  margin-top: 20px;
+  font-family: sans-serif;
 }
 
 .poster-card__button > button {
-    margin-top: 20px;
-    width: 100%;
-    padding: 15px;
-    color: #db2d69;
-    font-weight: bolder;
-    background-color: #202020;
-    border: #db2d69 1px solid;
-    cursor: pointer;
-    border-radius: 15px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  color: #db2d69;
+  font-weight: bolder;
+  background-color: #202020;
+  border: #db2d69 1px solid;
+  cursor: pointer;
+  border-radius: 15px;
 }
