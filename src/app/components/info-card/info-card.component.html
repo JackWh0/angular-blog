@@ -1,17 +1,17 @@
 <div class="info-card__container">
   <div class="info-card__english_title">
-    <h1>Solo Leveling Season 2: Arise from the Shadow</h1>
+    <h1>{{ englishTitle }}</h1>
   </div>
   <div class="info-card__japanese_title_plus_year_and_duration">
-    <span>俺だけレベルアップな件 Season 2 -Arise from the Shadow- </span>
-    <span> • 2025 • </span>
-    <span> 23 min</span>
+    <span> {{ japaneseTitle }} </span>
+    <span> • {{ animeYear }} • </span>
+    <span> {{ episodeDuration }} </span>
   </div>
   <div class="info-card__buttons">
     <button class="watching-button">
       <i class="fa fa-eye" aria-hidden="true"></i> Watching
     </button>
-    <button><i class="fa fa-comment-o" aria-hidden="true"></i> Review</button>
+    <button [routerLink]="['/reviews']"><i class="fa fa-comment-o" aria-hidden="true"></i> Reviews</button>
     <button><i class="fa fa-heart-o" aria-hidden="true"></i></button>
     <button><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
   </div>
@@ -21,18 +21,7 @@
   </div>
   <div class="info-card__synopsis">
     <p>
-      Sung Jin-Woo, dubbed the weakest hunter of all mankind, grows stronger by
-      the day with the supernatural powers he has gained. However, keeping his
-      skills hidden becomes more difficult as dungeon-related incidents pile up
-      around him. When Jin-Woo and a few other low-ranked hunters are the
-      only survivors of a dungeon that turns out to be a bigger challenge than
-      initially expected, he draws attention once again, and hunter guilds take
-      an increased interest in him. Meanwhile, a strange hunter who has been
-      lost for ten years returns with a dire warning about an upcoming
-      catastrophic event. As the calamity looms closer, Jin-Woo must continue
-      leveling up to make sure nothing stops him from reaching his ultimate
-      goal—saving the life of his mother.
-      [Written by MAL Rewrite]
+      {{ animeSynopsis }}
     </p>
   </div>
   <div class="info-card__genres">
@@ -40,12 +29,5 @@
     <span>Adventure</span>
     <span>Fantasy</span>
   </div>
-  <div class="info-card__episodes" *ngFor="let episode of episodes; let i = index">
-    <hr>
-    <app-episode-card
-      title=" {{ episode.title }} "
-      imageUrl=" {{ episode.image }}"
-      episodeNumber = "{{i + 1}}"
-    ></app-episode-card>
-  </div>
+  
 </div>

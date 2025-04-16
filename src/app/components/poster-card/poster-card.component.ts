@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-poster-card',
@@ -9,6 +9,9 @@ import { Component, OnInit } from '@angular/core';
   ],
 })
 export class PosterCardComponent implements OnInit {
+
+  @Input()
+  posterImgUrl: string = "";
   constructor() {}
 
   ngOnInit(): void {}

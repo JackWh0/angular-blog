@@ -1,6 +1,6 @@
 <div class="poster-card__container">
   <div class="poster-card__picture">
-    <img src="../../../assets/images/poster.png" alt="poster image"/>
+    <img src="{{ posterImgUrl }}" alt="poster image"/>
   </div>
 
   <div class="poster-card__starts">
@@ -17,6 +17,6 @@
     <span>230 views</span>
   </div>
   <div class="poster-card__button">
-    <button>View reviews</button>
+   <button [routerLink]="['/reviews']">View reviews</button>
   </div>
 </div>
