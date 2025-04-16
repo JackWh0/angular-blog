@@ -1,0 +1,25 @@
+<div class="reviews__container">
+  <div class="reviews__top-info">
+    <h1> {{englishTitle}}</h1>
+  </div>
+  <div class="reviews__middle-info">
+    <div class="reviews__section">
+      <h2><i class="fa fa-comments-o" aria-hidden="true"></i>  Reviews</h2>
+      <div class="reviews__comment" *ngFor="let review of reviews">
+        <app-review
+          imgUrl="{{ review.imgUrl }}"
+          username=" {{ review.username }} "
+          score= " {{review.score}}"
+          comment="{{review.comment}}"
+        ></app-review>
+      </div>
+    </div>
+    <div class="reviews__gif">
+      <h2><i class="fa fa-angle-right" aria-hidden="true"></i> Keep an open mind!</h2>
+      <img
+        src="https://comicvine.gamespot.com/a/uploads/scale_medium/11133/111337706/6269430-4865961223-latest"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
