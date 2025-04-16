@@ -1,0 +1,6 @@
+@media only screen and (max-width: 692px) {
+  .review__profile-pic > img {
+    width: 80px;
+    height: 90px;
+  }
+}

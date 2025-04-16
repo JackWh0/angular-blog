@@ -1,0 +1,65 @@
+.review__container {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 233, 231);
+  border-radius: 16px;
+  padding: 5px;
+}
+
+.review__profile-pic > img {
+  width: 70px;
+  height: 80px;
+  margin-top: 5px;
+}
+
+.comment-info {
+  padding: 5px;
+  color: black;
+  margin-left: 15px;
+}
+
+.comment-info > .username {
+    font-weight: bold;
+    font-style: italic;
+    color: #db196a;
+}
+
+.comment-info > .comment {
+  height: 200px;
+  overflow-y: scroll;
+  text-align: start;
+  padding: 20px;
+}
+
+.comment-info > .score {
+  text-emphasis-style: "❤️";
+  color: rgb(43 71 36);
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d8387b;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d41665;
+}
+
+.review__space {
+    height: 20px;
+}
