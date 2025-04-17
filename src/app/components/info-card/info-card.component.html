@@ -11,13 +11,17 @@
     <button class="watching-button">
       <i class="fa fa-eye" aria-hidden="true"></i> Watching
     </button>
-    <button [routerLink]="['/reviews']"><i class="fa fa-comment-o" aria-hidden="true"></i> Reviews</button>
+    <button [routerLink]="['/reviews']">
+      <i class="fa fa-comment-o" aria-hidden="true"></i> Reviews
+    </button>
     <button><i class="fa fa-heart-o" aria-hidden="true"></i></button>
     <button><i class="fa fa-share-square-o" aria-hidden="true"></i></button>
   </div>
   <div class="info-card__trailer">
     <p>Trailer</p>
-    <img src="https://img.youtube.com/vi/GDMXGzjJzS4/sddefault.jpg" />
+    <a target="_blank" href="{{ trailerUrl }}"
+      ><img src="{{ trailerImg }}" alt="Trailer image"
+    /></a>
   </div>
   <div class="info-card__synopsis">
     <p>
@@ -25,9 +29,6 @@
     </p>
   </div>
   <div class="info-card__genres">
-    <span>Action</span>
-    <span>Adventure</span>
-    <span>Fantasy</span>
+    <span *ngFor="let genre of genres">{{ genre }}</span>
   </div>
-  
 </div>

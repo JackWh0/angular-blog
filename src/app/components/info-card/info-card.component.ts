@@ -3,25 +3,30 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-info-card',
   templateUrl: './info-card.component.html',
-  styleUrls: ['./info-card.component.css',
-    './info-card.responsive.component.css'
+  styleUrls: [
+    './info-card.component.css',
+    './info-card.responsive.component.css',
   ],
 })
 export class InfoCardComponent implements OnInit {
   @Input()
-  englishTitle: string = "";
+  englishTitle: string = '';
   @Input()
-  japaneseTitle: string = "";
+  japaneseTitle: string = '';
   @Input()
-  animeYear: string = "";
+  animeYear: string = '';
   @Input()
-  episodeDuration:string = "";
+  episodeDuration: string = '';
   @Input()
-  animeSynopsis: string = "";
+  animeSynopsis: string = '';
+  @Input()
+  trailerImg: string = '';
+  @Input()
+  trailerUrl: string = '';
+  @Input()
+  genres: string[] = [];
 
   constructor() {}
-
-  
 
   ngOnInit(): void {}
 }

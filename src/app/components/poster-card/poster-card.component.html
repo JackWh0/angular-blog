@@ -1,6 +1,6 @@
 <div class="poster-card__container">
   <div class="poster-card__picture">
-    <img src="{{ posterImgUrl }}" alt="poster image"/>
+    <img src="{{ posterImgUrl }}" alt="poster image" />
   </div>
 
   <div class="poster-card__starts">
@@ -12,11 +12,11 @@
     <span class="stars-number"> 4</span>
   </div>
   <div class="poster-card__rating">
-    <span>19 reviews • </span>
-    <span>15 comments • </span>
-    <span>230 views</span>
+    <span> {{ year }} • </span>
+    <span>{{ number_of_episodes }} episodes • </span>
+    <span>{{ number_of_reviews }} reviews</span>
   </div>
   <div class="poster-card__button">
-   <button [routerLink]="['/reviews']">View reviews</button>
+    <button [routerLink]="['/reviews']">View Reviews</button>
   </div>
 </div>

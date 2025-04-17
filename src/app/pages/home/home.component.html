@@ -1,29 +1,27 @@
 <div class="home__container">
-  <div class="background-img"></div>
+  <div
+    class="background-img"
+    style="background-image: url('{{ coverImg }}')"
+  ></div>
   <div class="home__anime_session">
     <div class="home__anime_poster">
       <app-poster-card
-        posterImgUrl="../../../assets/images/poster.png"
+        posterImgUrl="{{ posterImg }}"
+        [number_of_episodes]="number_of_episodes"
+        number_of_reviews="{{ number_of_reviews }}"
+        year="{{ animeYear }}"
       ></app-poster-card>
     </div>
     <div class="home__anime_info">
       <app-info-card
-        englishTitle="Solo Leveling Season 2: Arise from the Shadow"
-        japaneseTitle="俺だけレベルアップな件 Season 2 -Arise from the Shadow-"
-        animeYear="2025"
-        episodeDuration="23 min"
-        animeSynopsis="Sung Jin-Woo, dubbed the weakest hunter of all mankind, grows stronger by
-        the day with the supernatural powers he has gained. However, keeping his
-        skills hidden becomes more difficult as dungeon-related incidents pile up
-        around him. When Jin-Woo and a few other low-ranked hunters are the
-        only survivors of a dungeon that turns out to be a bigger challenge than
-        initially expected, he draws attention once again, and hunter guilds take
-        an increased interest in him. Meanwhile, a strange hunter who has been
-        lost for ten years returns with a dire warning about an upcoming
-        catastrophic event. As the calamity looms closer, Jin-Woo must continue
-        leveling up to make sure nothing stops him from reaching his ultimate
-        goal—saving the life of his mother.
-        [Written by MAL Rewrite]"
+        englishTitle="{{ englishTitle }}"
+        japaneseTitle="{{ japaneseTitle }}"
+        animeYear="{{ animeYear }}"
+        episodeDuration="{{ episodeDuration }}"
+        animeSynopsis="{{ animeSynopsis }}"
+        trailerImg="{{ trailerImg }}"
+        trailerUrl="{{ trailerUrl }}"
+        [genres]="genres"
       >
       </app-info-card>
       <div

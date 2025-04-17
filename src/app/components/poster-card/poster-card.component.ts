@@ -9,9 +9,15 @@ import { Component, Input, OnInit } from '@angular/core';
   ],
 })
 export class PosterCardComponent implements OnInit {
-
   @Input()
-  posterImgUrl: string = "";
+  posterImgUrl: string = '';
+  @Input()
+  number_of_reviews: string = '';
+  @Input()
+  year: string = '';
+  @Input()
+  number_of_episodes: number = 0;
+
   constructor() {}
 
   ngOnInit(): void {}

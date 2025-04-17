@@ -1,46 +1,27 @@
 import { Component, OnInit } from '@angular/core';
+import { animeInfo } from '../../data/animeInfo';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css', './home.responsive.component.css']
+  styleUrls: ['./home.component.css', './home.responsive.component.css'],
 })
 export class HomeComponent implements OnInit {
-  episodes = [
-    {
-      title: "You Aren't E-Rank, Are You?",
-      image:
-        '../../assets/images/episode01.jpg',
-    },
-    {
-      title: "I Suppose You Aren't Aware",
-      image:
-        '../../assets/images/episode02.jpg',
-    },
-    {
-      title: 'Still a Long Way to Go',
-      image:
-        '../../assets/images/episode03.jpg',
-    },
-    {
-      title: 'I Need to Stop Faking',
-      image:
-        '../../assets/images/episode04.jpg',
-    },
-    {
-      title: "This Is What We're Trained to Do",
-      image:
-        '../../assets/images/episode05.jpg',
-    },
-    {
-      title: 'Don’t Look Down on My Guys',
-      image:
-        '../../assets/images/episode06.jpg',
-    },
-  ];
-  constructor() { }
+  englishTitle: string = animeInfo.englishTitle;
+  japaneseTitle: string = animeInfo.japaneseTitle;
+  animeYear: string = animeInfo.animeYear;
+  episodeDuration: string = animeInfo.episodeDuration;
+  animeSynopsis: string = animeInfo.animeSynopsis;
+  posterImg: string = animeInfo.posterImgUrl;
+  trailerImg: string = animeInfo.trailer.image_url;
+  trailerUrl: string = animeInfo.trailer.embed_url;
+  episodes = animeInfo.episodesData;
+  number_of_episodes:number = animeInfo.episodesData.length;
+  number_of_reviews: string = animeInfo.number_of_reviews;
+  genres:string[] = animeInfo.genres;
+  coverImg:string = animeInfo.coverImg;
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
 }
