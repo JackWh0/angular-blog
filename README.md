@@ -3,7 +3,8 @@
 A blog project created with Angular and based on a [dribbble](https://dribbble.com/shots/25472172-Anime-Web-App) layout.
 
 🚧 Work in progress 🚧
-![192 168 3 137_4200_ (1)](https://github.com/user-attachments/assets/8ff0a1c1-82b8-4f3d-8659-7188df51ae32)
+![image](https://github.com/user-attachments/assets/9093a3c4-114b-4280-8ef8-824dda9a2ca2)
+
 
 Video Preview - PC
 
