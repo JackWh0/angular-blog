@@ -1,8 +1,5 @@
 @media only screen and (max-width: 869px) {
   .menu-bar__container > ul {
-    font-size: 20px;
+    font-size: 14px;
   }
-  /* hr {
-    display: none;
-  } */
 }

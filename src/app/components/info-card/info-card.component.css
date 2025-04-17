@@ -8,7 +8,7 @@
   /* font-size: 48px; */
   font-weight: bold;
   filter: drop-shadow(1px 0 0 black) drop-shadow(0 1px 0 black)
-  drop-shadow(-2px 0 0 black) drop-shadow(0 -2px 0 black);
+    drop-shadow(-2px 0 0 black) drop-shadow(0 -2px 0 black);
 }
 
 .info-card__japanese_title_plus_year_and_duration {
@@ -43,7 +43,7 @@
   color: #db2d69;
 }
 
-.info-card__trailer > img {
+.info-card__trailer > a > img {
   border-radius: 15px;
   width: 75px;
   height: 50px;
