@@ -3,12 +3,19 @@
 A blog project created with Angular and based on a [dribbble](https://dribbble.com/shots/25472172-Anime-Web-App) layout.
 
 🚧 Work in progress 🚧
+![192 168 3 137_4200_ (1)](https://github.com/user-attachments/assets/8ff0a1c1-82b8-4f3d-8659-7188df51ae32)
 
-![192 168 3 137_4200_](https://github.com/user-attachments/assets/a4162699-c503-4b4b-973d-ea898eb52e5d)
+Video Preview - PC
 
-What it looks like on a phone:
+https://github.com/user-attachments/assets/c6d7c368-3073-46aa-85ad-166452b3d15f
 
-![192 168 3 137_4200_(iPhone XR)](https://github.com/user-attachments/assets/b0b27644-626b-4b83-81d7-0cdbaeff0762)
+Video Preview - Responsive Pages
+
+
+https://github.com/user-attachments/assets/9d917644-cb9d-4909-b1fd-d915e85c5c57
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
